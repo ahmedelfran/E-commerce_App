@@ -1,0 +1,149 @@
+
+.hero__section {
+    background: var(--hero-bg);
+}
+
+.hero__content h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.hero__content p {
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+.hero__content .p__lorem {
+    font-size: .9rem;
+}
+
+.hero__content p:nth-child(1) {
+    font-weight: 500;
+}
+
+.buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background: var(--primary-color);
+    font-size: .9rem;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.buy__btn a:hover {
+    color: #fff;
+}
+
+.timer__count {
+    background: var(--primary-color);
+    height: 350px;
+}
+
+.timer__count img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.store__btn {
+    color: var(--primary-color);
+    background: #fff;
+    font-weight: 600;
+}
+.store__btn a:hover {
+    color: var(--primary-color);
+}
+
+
+@media only screen and (max-width: 992px) {
+    .hero__content h2 {
+        font-size: 1.7rem;
+    }
+    .hero__content .p__lorem {
+        font-size: .8rem;
+    }
+    .hero__suptitle {
+        font-size: .9rem;
+    }
+    .buy__btn {
+        font-size: .8rem;
+        margin-top: 30px;
+    }
+
+    .section__title{
+        font-size: 1.5rem;
+    }
+
+    .counter__img {
+        display: none;
+    }
+    .clock__all{
+        text-align: center;
+    }
+    .clock__top-content h4 {
+        font-size: 0.9rem !important;
+    }
+    .clock__top-content h3 {
+        font-size: 1rem !important;
+    }
+    .clock__top-content {
+        margin-bottom: 40px;
+    }
+    .buy__btn {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__content {
+        margin-top: 10px !important;
+    }
+    .hero__content h2 {
+        font-size: 1.3rem;
+    }
+    .hero__content .p__lorem {
+        font-size: .7rem;
+    }
+    .hero__suptitle {
+        font-size: .8rem;
+    }
+    .buy__btn {
+        font-size: .7rem;
+        margin-top: 30px;
+    }
+
+    .section__title{
+        font-size: 1.3rem;
+    }
+    .clock__top-content {
+        margin-bottom: 40px;
+    }
+    .buy__btn {
+        margin-top: 60px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__content {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .clock__top-content {
+        margin-bottom: 40px;
+    }
+    .buy__btn {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .buy__btn a{
+        font-size: 14px;
+    }
+}
